@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $firstName = $_POST["firstname"];
     $message = $_POST["subject"];
     
-    $to = "abhijitacosta@outlook.com"; // Replace with your email address
+    $to = "abhijitacosta@outlook.com";
     $subject = "New Contact From TheTechyCat";
     $body = "Name: $firstName\nMessage: $message";
 
